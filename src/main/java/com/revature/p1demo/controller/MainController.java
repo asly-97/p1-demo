@@ -13,7 +13,7 @@ public class MainController {
 
     @GetMapping
     public ResponseEntity<String> hello() {
-        return ResponseEntity.ok("Hello Jenkins pipeline!!!");
+        return ResponseEntity.ok("Hey Jenkins pipeline!!!");
     }
 
 }
